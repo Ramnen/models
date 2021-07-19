@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div class="mx-auto">
+		<h4>
+			Анкета для корпоративных клиентов
+		</h4>
+		
+		<h6>
+			Личные данные
+		</h6>
+
+		<form class="row g-3">
+			<div class="col-md-4">
+				<label for="inputEmail4" class="form-label">Фамилия</label>
+				<input type="email" class="form-control" id="inputEmail4" placeholder="Иванов">
+			</div>
+
+			<div class="col-md-4">
+				<label for="inputPassword4" class="form-label">Имя</label>
+				<input type="password" class="form-control" id="inputPassword4" placeholder="Иван">
+			</div>
+
+			<div class="col-md-4">
+				<label for="inputPassword4" class="form-label">Отчество</label>
+				<input type="password" class="form-control" id="inputPassword4" placeholder="Иванович">
+			</div>
+
+			<div class="col-4">
+				<label for="inputAddress" class="form-label">Дата рождения</label>
+				<input type="date" class="form-control" id="inputAddress" placeholder="12.12.2021">
+			</div>
+
+			<div class="col-8">
+				<label for="inputAddress2" class="form-label">Фактическое место проживания</label>
+				<input type="text" class="form-control" id="inputAddress2" placeholder="Бишкек, Чорморова 23/3 кв.43">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">
+					Контактный номер
+				</label>
+				<input type="text" class="form-control" placeholder="+996 555 000 000">
+			</div>
+
+			<div class="col-4">
+				<label for="email" class="form-label">
+					Электронный адресс
+				</label>
+				<input type="email" class="form-control" placeholder="ivanov@mail.ru">
+			</div>
+
+			<h6>
+				Паспортные данные
+			</h6>
+
+			<div class="col-4">
+				<label for="" class="form-label">Серийный номер AN/ID</label>
+				<input type="text" class="form-control" placeholder="AN1234567">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">ИНН</label>
+				<input type="text" class="form-control" placeholder="1234567894654">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Дата получения</label>
+				<input type="date" class="form-control" placeholder="12.12.2021">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Наименование банка</label>
+				<select name="" id="" class="form-select">
+					<option value="" selected>Выбирите банк</option>
+					<option value="">Бакай банк</option>
+					<option value="">Дос кредо банк</option>
+				</select>
+			</div>
+
+			<div class="col-8">
+				<label class="form-label">
+					Место проживания по прописке
+				</label>
+				<input type="text" class="form-control" placeholder="Бишкек, Чорморова 23/3 кв.43">
+			</div>
+
+			<h6>
+				Данные о ваших доходах
+			</h6>
+
+			<div class="col-4">
+				<label for="" class="form-label">Организация</label>
+				<input type="text" class="form-control" placeholder="Megacom">
+			</div>
+
+			<div class="col-8">
+				<label for="" class="form-label">Должность</label>
+				<input type="text" class="form-control" placeholder="Ведущий бухгалтер">
+			</div>
+
+			<div class="col-6">
+				<label for="" class="form-label">Заработная плата в месяц</label>
+				<input type="text" class="form-control">
+			</div>
+
+			<div class="col-6">
+				<label for="" class="form-label">Заработная Плата за посл. 3 месяца</label>
+				<input type="text" class="form-control">
+			</div>
+
+			<h6>
+				Сведения о кредите
+			</h6>
+
+			<div class="">
+				<label for="" class="form-label">Покупка телефона (наименование товара)</label>
+				<input type="text" class="form-control" placeholder="iPhone XS 256Gb">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Стоимость товара</label>
+				<input type="text" class="form-control" placeholder="65 000 сом">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Количество товара</label>
+				<input type="text" class="form-control" placeholder="1 шт">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Итого сумма кредита</label>
+				<input type="text" class="form-control" placeholder="65 000 сом">
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Вид кредита</label>
+				<select name="" id="" class="form-select">
+					<option select>кредит/рассрочка</option>
+					<option value="">Рассрочка</option>
+					<option value="">Кредит</option>
+				</select>
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Срок кредита(мес)</label>
+				<select name="" id="" class="form-select">
+					<option select>мин 3 месяца</option>
+					<option>3 месяца</option>
+					<option>6 месяцев</option>
+					<option>9 месяцев</option>
+					<option>12 месяцев</option>
+				</select>
+			</div>
+
+			<div class="col-4">
+				<label for="" class="form-label">Вид кредита</label>
+				<select name="" id="" class="form-select">
+					<option select>Выберите адрес</option>
+					<option>ТЦ "Азия Молл"</option>
+					<option>ТЦ ГУМ "Чынар"</option>
+					<option>ТЦ "Beta Stores - 2"</option>
+					<option>ТЦ Vefa Center</option>
+					<option>ТЦ "Беш-Сары Сити"</option>
+					<option>ТЦ "Аламедин Гранд"</option>
+				</select>
+			</div>
+			
+		</form>
+	</div>
+	
+
+</div>
+</form>
+
+
+
+</body>
+</html>

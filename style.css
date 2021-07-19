@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+}
+
+.form{
+	background-color: white;
+}
+
+.border{
+	border-radius: 5px;
+	width: 42%;
+}
+
+.tittle{
+	margin-left: 40%;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.num{
+	margin: 0px 10px 0px 10px;
+}
+
+.btn{
+	width: 80%;
+}
+
+.button{
+	padding-left: 14%;
+}
+
+.search{
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+/*.form-label{
+	margin-bottom: 10px;
+}*/
